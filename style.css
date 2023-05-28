@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: #d0d1d4;
+    background: white;
 }
 
 .container {
@@ -11,7 +11,7 @@ body {
     width: auto;
     height: 900px;
     padding: 2px;
-    background: #d0d1d4;
+    background: white;
 }
 
 .header-logo {
@@ -21,7 +21,9 @@ body {
     float: left;
     background: cyan;
     border-radius: 24px;
-    background: #45ED7C;
+    /* background: #45ED7C; */
+    background: white;
+
 }
 
 .logoImg {
@@ -45,7 +47,9 @@ body {
     float: left;
     width: 70%;
     height: 38%;
-    background: #d0d1d4;
+    /* background: #d0d1d4; */
+    background: white;
+
 }
 
 .input-text-left {
@@ -58,7 +62,9 @@ body {
     font-size: 20px;
     border: #0A3871;
     outline: none;
-    background: #d0d1d4;
+    /* background: #d0d1d4; */
+    background: white;
+
 }
 
 .right-section {
@@ -68,7 +74,9 @@ body {
     width: 30%;
     height: 54%;
     border-radius: 10px; 
-    background: #3EF0C6
+    /* background: #18eea7 */
+    background: #FFFFFF;
+
 }
 
 #imgBoy {
@@ -119,11 +127,13 @@ body {
     border: none;
     outline: none;
     font-size: 25px;
-    background: #d0d1d4;
+    /* background: #d0d1d4; */
+    background: white;
+
 }
 
 #btnCopiar {
-    margin-top: 10px;
+    /* margin-top: 10px;
     align-items: center;
     text-align: center;
     margin-left: 36%;
@@ -136,7 +146,24 @@ body {
     border-radius: 50px;
     text-decoration: double;
     font-size: 20px;
-    font-style:oblique;
+    font-style:oblique; */
+
+    margin-top: 20px;
+    /* margin-right: 100px; */
+    background: #2c85f1;
+    margin-left: 36%;
+    border-radius: 10px;
+    border: #2c85f1;
+    border-style: none;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    /* float: right; */
+    text-decoration: none;
+    font-size: 15px;
 }
 
 #btnCopiar:hover {
@@ -151,7 +178,9 @@ body {
     width: 70%;
     height: 15%;
     border-radius: 24px;
-    background: #45ED7C;
+    /* background: #45ED7C; */
+    background: white;
+
     padding-bottom: 15px;
 }
 
