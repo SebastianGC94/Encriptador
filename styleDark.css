@@ -221,3 +221,70 @@ footer {
     text-decoration: none;
     font-size: 12px;
 }
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .container {
+      height: auto;
+    }
+    
+    .header-logo {
+      height: 10%;
+    }
+    
+    .title {
+      font-size: 30px;
+    }
+    
+    .left-section {
+      height: 50%;
+    }
+    
+    .input-text-left {
+      font-size: 15px;
+    }
+    
+    .right-section {
+      height: 40%;
+    }
+    
+    #imgBoy {
+      height: 25%;
+    }
+    
+    #not-found-text {
+      font-size: 15px;
+    }
+    
+    #inputTextRight {
+      font-size: 12px;
+    }
+    
+    #inputTextLeft {
+      font-size: 18px;
+      margin-top: 50px;
+    }
+    
+    #btnCopiar {
+      font-size: 15px;
+    }
+    
+    .left-button-section {
+      height: 10%;
+    }
+    
+    #btnEncriptar,
+    #btnDesencriptar {
+      padding: 15px;
+      font-size: 15px;
+    }
+    
+    footer {
+      font-size: 15px;
+    }
+    
+    .copyright {
+      font-size: 15px;
+    }
+  }
+  
