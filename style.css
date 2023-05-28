@@ -236,6 +236,7 @@ footer {
     
     .title {
       font-size: 30px;
+      float: none;
     }
     
     .left-section {
@@ -268,7 +269,12 @@ footer {
     }
     
     #btnCopiar {
-      font-size: 15px;
+        font-size: 15px;
+        width: 100px;
+        margin-left: 40px;
+        position: relative;
+        height: 1%;
+        margin-bottom: 5px;
     }
     
     .left-button-section {
