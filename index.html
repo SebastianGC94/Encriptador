@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="esp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link id="styleSheet" rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>ALURA CHALLENGE: ENCRIPTADOR TEXTO</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-logo">
+            <img class="logoImg" src="images/logoAlura2x.png" alt="Logo Alura">
+            <h1 class="title">Encriptador y Desencriptador de Texto</h1>
+            <button type="button" id="btnOscuro" onclick="activarOscuro()">Cambiar Tema</button>
+        </div>
+
+        <div class="left-section">
+            <textarea id="inputTextLeft" name="name" cols="70" rows="10" required>Ingrese el texto aquí.</textarea>
+        </div>
+
+        <div class="right-section">
+            <img id="imgBoy" src="images/imgBoy.png" alt="Personaje Animado de Alura">
+            <h1 id="not-found-text">Ningún mensaje fue encontrado</h1>
+            <textarea id="inputTextRight" name="name" cols="70" rows="10"
+                required>Ingrese el texto que desea encriptar o desencriptar.</textarea>
+            <button type="button" id="btnCopiar" onclick="copiar()">Copiar</button>
+        </div>
+
+        <div class="left-button-section">
+            <p id="alert">¡Solo minúsculas y sin caracteres especiales!</p>
+            <button type="button" id="btnEncriptar" onclick="verificarTexto()">ENCRIPTAR</button>
+            <button type="button" id="btnDesencriptar" onclick="desencriptar()">DESENCRIPTAR</button>
+        </div>
+
+        <footer>
+            <p class="copyright">&copy Copyright Sebastián Garcia C. - 2023</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
