@@ -1,139 +1,139 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    background: white;
+  margin: 0px;
+  padding: 0px;
+  background: white;
 }
 
 .container {
-    display: flexbox;
-    margin-bottom: 10px;
-    margin: auto;
-    width: auto;
-    height: 900px;
-    padding: 2px;
-    background: white;
+  display: flexbox;
+  margin-bottom: 10px;
+  margin: auto;
+  width: auto;
+  height: 900px;
+  padding: 2px;
+  background: white;
 }
 
 .header-logo {
-    flex-basis: 70%;
-    width: 100%;
-    height: 15%; 
-    float: left;
-    background: cyan;
-    border-radius: 24px;
-    /* background: #45ED7C; */
-    background: white;
+  flex-basis: 70%;
+  width: 100%;
+  height: 15%;
+  float: left;
+  background: cyan;
+  border-radius: 24px;
+  /* background: #45ED7C; */
+  background: white;
 
 }
 
 .logoImg {
-    margin-top: 1%;
-    margin-left: 2%;
-    float: inherit;
+  margin-top: 1%;
+  margin-left: 2%;
+  float: inherit;
 }
 
 .title {
-    margin-top: 10%;
-    margin-left: auto;
-    float: inherit;
-    text-align: left;
-    margin-top: 20px;
-    font-size: 40px;
-    font-style: Bold;
+  margin-top: 10%;
+  margin-left: auto;
+  float: inherit;
+  text-align: left;
+  margin-top: 20px;
+  font-size: 40px;
+  font-style: Bold;
 }
 
 .left-section {
-    flex-basis: 70%;
-    float: left;
-    width: 70%;
-    height: 38%;
-    /* background: #d0d1d4; */
-    background: white;
+  flex-basis: 70%;
+  float: left;
+  width: 70%;
+  height: 38%;
+  /* background: #d0d1d4; */
+  background: white;
 
 }
 
 .input-text-left {
-    text-align: center;
-    float: inherit;
-    margin: 1% 1%;
-    width: 100%;
-    height: 100%;
-    color: #0A3871;
-    font-size: 20px;
-    border: #0A3871;
-    outline: none;
-    /* background: #d0d1d4; */
-    background: white;
+  text-align: center;
+  float: inherit;
+  margin: 1% 1%;
+  width: 100%;
+  height: 100%;
+  color: #0A3871;
+  font-size: 20px;
+  border: #0A3871;
+  outline: none;
+  /* background: #d0d1d4; */
+  background: white;
 
 }
 
 .right-section {
-    flex-basis: 30%;
-    margin-top: 5px;
-    float: right;
-    width: 30%;
-    height: 54%;
-    border-radius: 10px; 
-    /* background: #18eea7 */
-    background: #FFFFFF;
+  flex-basis: 30%;
+  margin-top: 5px;
+  float: right;
+  width: 30%;
+  height: 54%;
+  border-radius: 10px;
+  /* background: #18eea7 */
+  background: #FFFFFF;
 
 }
 
 #imgBoy {
-    width: 90%;
-    height: 35%;
+  width: 90%;
+  height: 35%;
 }
 
 #not-found-text {
-    margin-bottom: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
-    font-weight: Bold;
-    font-size: 20px;
-    vertical-align: top;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  font-weight: Bold;
+  font-size: 20px;
+  vertical-align: top;
 }
 
 #alert {
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 10%;
-    font-size: 20px;
-    font-weight: Bold;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10%;
+  font-size: 20px;
+  font-weight: Bold;
 }
 
 #inputTextRight {
-    text-align: center;
-    float: left;
-    margin-top: 2px;
-    margin-left: 10%;
-    margin-bottom: 1%;
-    color: #0A3871;
-    width: 80%;
-    border: none;
-    outline: none;
-    font-size: 15px;
+  text-align: center;
+  float: left;
+  margin-top: 2px;
+  margin-left: 10%;
+  margin-bottom: 1%;
+  color: #0A3871;
+  width: 80%;
+  border: none;
+  outline: none;
+  font-size: 15px;
 }
 
 #inputTextLeft {
-    text-align: center;
-    float: left;
-    margin-top: 100px;
-    margin-left: 10%;
-    margin-bottom: 1%;
-    color: #0A3871;
-    width: 80%;
-    border: none;
-    outline: none;
-    font-size: 25px;
-    /* background: #d0d1d4; */
-    background: white;
+  text-align: center;
+  float: left;
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-bottom: 1%;
+  color: #0A3871;
+  width: 80%;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  /* background: #d0d1d4; */
+  background: white;
 
 }
 
 #btnCopiar {
-    /* margin-top: 10px;
+  /* margin-top: 10px;
     align-items: center;
     text-align: center;
     margin-left: 36%;
@@ -148,180 +148,205 @@ body {
     font-size: 20px;
     font-style:oblique; */
 
-    margin-top: 20px;
-    /* margin-right: 100px; */
-    background: #2c85f1;
-    margin-left: 36%;
-    border-radius: 10px;
-    border: #2c85f1;
-    border-style: none;
-    align-items: center;
-    width: 30%;
-    height: auto;
-    color: black;
-    padding: 10px 25px;
-    text-align: center;
-    /* float: right; */
-    text-decoration: none;
-    font-size: 15px;
+  margin-top: 20px;
+  /* margin-right: 100px; */
+  background: #2c85f1;
+  margin-left: 36%;
+  border-radius: 10px;
+  border: #2c85f1;
+  border-style: none;
+  align-items: center;
+  width: 30%;
+  height: auto;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  /* float: right; */
+  text-decoration: none;
+  font-size: 15px;
 }
 
 #btnCopiar:hover {
-    background: rgb(22, 221, 55);
-    transform: scale(1.2);
+  background: rgb(22, 221, 55);
+  transform: scale(1.2);
 }
 
 
 .left-button-section {
-    margin-top: 5px;
-    float: left;
-    width: 70%;
-    height: 15%;
-    border-radius: 24px;
-    /* background: #45ED7C; */
-    background: white;
+  margin-top: 5px;
+  float: left;
+  width: 70%;
+  height: 15%;
+  border-radius: 24px;
+  /* background: #45ED7C; */
+  background: white;
 
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 #btnEncriptar {
-    text-align: center;
-    font-weight: bold;
-    padding: 20px;
-    width: 30%;
-    height: 60%;
-    border-radius: 24px;
-    margin-left: 15%;
-    background: #3EF0C6;
-    transition: 1s all;
-    cursor: pointer;
-    border: none;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  width: 30%;
+  height: 60%;
+  border-radius: 24px;
+  margin-left: 15%;
+  background: #3EF0C6;
+  transition: 1s all;
+  cursor: pointer;
+  border: none;
 }
 
 #btnEncriptar:hover {
-    background: rgb(24, 218, 6);
-    transform: scale(1.2);
+  background: rgb(24, 218, 6);
+  transform: scale(1.2);
 }
 
 #btnDesencriptar {
-    text-align: center;
-    font-weight: bold;
-    padding: 20px;
-    width: 30%;
-    height: 60%;
-    border-radius: 24px;
-    margin-left: 15%;
-    background: lightseagreen;
-    transition: 1s all;
-    cursor: pointer;
-    border: none;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  width: 30%;
+  height: 60%;
+  border-radius: 24px;
+  margin-left: 15%;
+  background: lightseagreen;
+  transition: 1s all;
+  cursor: pointer;
+  border: none;
 }
 
 #btnDesencriptar:hover {
-    background: rgb(140, 6, 218);
-    transform: scale(1.2);
+  background: rgb(140, 6, 218);
+  transform: scale(1.2);
 }
 
 footer {
-    text-align: center;
-    margin-top: 5px;
-    text-align: center;
-    padding: 1%;
-    margin-bottom: 100px;
+  text-align: center;
+  margin-top: 5px;
+  text-align: center;
+  padding: 1%;
+  margin-bottom: 100px;
 }
 
 .copyright {
-    text-align: center;
-    font-size: 20px;
-    margin: 1px;
-    font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin: 1px;
+  font-weight: bold;
 }
 
-#btnOscuro{
-    margin-top: 40px;
-    margin-right: 100px;
-    background: #0aeb55;
-    border-radius: 10px;
-    border: #2c85f1;
-    border-style: double;
-    color: black;
-    padding: 10px 25px;
-    text-align: center;
-    float: right;
-    text-decoration: none;
-    font-size: 15px;
+#btnOscuro {
+  margin-top: 40px;
+  margin-right: 100px;
+  background: #0aeb55;
+  border-radius: 10px;
+  border: #2c85f1;
+  border-style: double;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  float: right;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 600px) {
-    .container {
-      height: auto;
-    }
-    
-    .header-logo {
-      height: 10%;
-    }
-    
-    .title {
-      font-size: 30px;
-      float: none;
-    }
-    
-    .left-section {
-      height: 50%;
-    }
-    
-    .input-text-left {
-      font-size: 15px;
-    }
-    
-    .right-section {
-      height: 40%;
-    }
-    
-    #imgBoy {
-      height: 25%;
-    }
-    
-    #not-found-text {
-      font-size: 15px;
-    }
-    
-    #inputTextRight {
-      font-size: 12px;
-    }
-    
-    #inputTextLeft {
-      font-size: 18px;
-      margin-top: 50px;
-    }
-    
-    #btnCopiar {
-        font-size: 15px;
-        width: 100px;
-        margin-left: 40px;
-        position: relative;
-        height: 1%;
-        margin-bottom: 5px;
-    }
-    
-    .left-button-section {
-      height: 10%;
-    }
-    
-    #btnEncriptar,
-    #btnDesencriptar {
-      padding: 15px;
-      font-size: 15px;
-    }
-    
-    footer {
-      font-size: 15px;
-    }
-    
-    .copyright {
-      font-size: 15px;
-    }
+  .container {
+    width: auto;
+    height: auto;
+    display: flex; /*para ajustar el conteido vertical/...*/
+    flex-direction: column;
   }
-  
+
+  .header-logo {
+    height: 10%;
+    width: 90%;
+    margin-right: 100px;  }
+
+  .logoImg {
+    margin-left: -50px;
+    float: left;
+  }
+
+  .title {
+    font-size: 25px;
+    float: none;
+  }
+
+  #btnOscuro{
+    float: right;
+    margin: 10px;
+    font-size: 13px;
+    padding: 3px;
+    margin-right: 10px;
+  }
+
+  .left-section {
+    height: 100%;
+    width: 100%;
+    margin-top: 20%;
+  }  
+
+  .input-text-left {
+    font-size: 15px;
+  }
+
+  .right-section {
+    height: 100%;
+    width: 70%;
+    /* margin-top: 5px; */
+    margin-left: 60px;
+  }
+
+  #imgBoy {
+    height: 25%;
+  }
+
+  #not-found-text {
+    font-size: 15px;
+  }
+
+  #inputTextRight {
+    font-size: 15px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 40px;  
+  }
+
+  #inputTextLeft {
+    font-size: 18px;
+    margin-top: 50px;
+  }
+
+  #btnCopiar {
+    font-size: 15px;
+    width: 90px;
+    margin-left: 100px;
+    position: relative;
+    height: 1%;
+    margin-bottom: 25px;
+  }
+
+  .left-button-section {
+    height: 10%;
+    width: 100%;
+  }
+
+  #btnEncriptar,
+  #btnDesencriptar {
+    padding: 15px;
+    font-size: 15px;
+  }
+
+  footer {
+    font-size: 15px;
+  }
+
+  .copyright {
+    font-size: 15px;
+  }
+}

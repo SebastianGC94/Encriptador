@@ -107,7 +107,8 @@ body {
     border: none;
     outline: none;
     font-size: 15px;
-    background: #9daaaa
+    background: #9daaaa;
+    border-radius: 10px;
 }
 
 #inputTextLeft {
