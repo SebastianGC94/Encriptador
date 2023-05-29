@@ -225,73 +225,99 @@ footer {
 
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 600px) {
-    .container {
-      height: auto;
-    }
-    
-    .header-logo {
-      height: 10%;
-    }
-    
-    .title {
-      font-size: 30px;
-      float: none;
-    }
-    
-    .left-section {
-      height: 50%;
-    }
-    
-    .input-text-left {
-      font-size: 15px;
-    }
-    
-    .right-section {
-      height: 40%;
-    }
-    
-    #imgBoy {
-      height: 25%;
-    }
-    
-    #not-found-text {
-      font-size: 15px;
-    }
-    
-    #inputTextRight {
-      font-size: 12px;
-    }
-    
-    #inputTextLeft {
-      font-size: 18px;
-      margin-top: 50px;
-    }
-    
-    #btnCopiar {
-        font-size: 15px;
-        width: 100px;
-        margin-left: 40px;
-        position: relative;
-        height: 1%;
-        margin-bottom: 5px;
-    }
-    
-    .left-button-section {
-      height: 10%;
-    }
-    
-    #btnEncriptar,
-    #btnDesencriptar {
-      padding: 15px;
-      font-size: 15px;
-    }
-    
-    footer {
-      font-size: 15px;
-    }
-    
-    .copyright {
-      font-size: 15px;
-    }
+  .container {
+    width: auto;
+    height: auto;
+    display: flex; /*para ajustar el conteido vertical/...*/
+    flex-direction: column;
   }
+
+  .header-logo {
+    height: 10%;
+    width: 90%;
+    margin-right: 100px;  }
+
+  .logoImg {
+    margin-left: -50px;
+    float: left;
+  }
+
+  .title {
+    font-size: 25px;
+    float: none;
+  }
+
+  #btnOscuro{
+    float: right;
+    margin: 10px;
+    font-size: 13px;
+    padding: 3px;
+    margin-right: 10px;
+  }
+
+  .left-section {
+    height: 100%;
+    width: 100%;
+    margin-top: 20%;
+  }  
+
+  .input-text-left {
+    font-size: 15px;
+  }
+
+  .right-section {
+    height: 100%;
+    width: 70%;
+    /* margin-top: 5px; */
+    margin-left: 60px;
+  }
+
+  #imgBoy {
+    height: 25%;
+  }
+
+  #not-found-text {
+    font-size: 15px;
+  }
+
+  #inputTextRight {
+    font-size: 15px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 40px;  
+  }
+
+  #inputTextLeft {
+    font-size: 18px;
+    margin-top: 50px;
+  }
+
+  #btnCopiar {
+    font-size: 15px;
+    width: 90px;
+    margin-left: 100px;
+    position: relative;
+    height: 1%;
+    margin-bottom: 25px;
+  }
+
+  .left-button-section {
+    height: 10%;
+    width: 100%;
+  }
+
+  #btnEncriptar,
+  #btnDesencriptar {
+    padding: 15px;
+    font-size: 15px;
+  }
+
+  footer {
+    font-size: 15px;
+  }
+
+  .copyright {
+    font-size: 15px;
+  }
+}
   
